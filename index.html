@@ -1,0 +1,61 @@
+<!-- 
+HW8
+NOTE: I am using a hw token 
+Name: Roniel Abreu, 
+email: roniel_abreu@student.uml.edu
+Affiliation: I am a senior majoring in computer science and this assignment is for 
+Graphical User Interface programming I with wenjin Zhou
+Date:12/16/20
+Description:  This is an implementation of the scrabble game not the full one but just a one line
+implementation. First we declare a array of letters and these letters have all differnet values we do that in dics.js and then 
+we make it so that these tiles can  be dragged on and off of the board thre are bonus squares that give more points 
+the score keeps going and the player can choose to restart or keep going until the player wants to quit. I think i was able to get everything working that needed to work for 
+this assignment. 
+-->
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Scrabble game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="main">
+            <header> 
+                <h1>Scrabble</h1> 
+            </header>
+            <div id = "scoreboard">
+                <div>
+                    <div class="label">Word: <span id="word"></span></div>
+                </div>
+                <div>
+                    <div class="label">Score: <span id="total-score">0</span>(+<span id="cur-score"></span>)</div>
+                </div>
+                <div>   
+                    <div class="label">Remaining: <span id="bag"></span></div>
+                </div>
+            </div> 
+            <div id="board"></div>
+            <div id="buttons">
+                <button id="next-word" disabled="disabled">Next</button>
+                <button id="reset">Reset</button>
+            </div>
+            
+            <div id="rack"></div>
+
+        </div>        
+        
+        <script src="js/jquery_3-5-1.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/dict.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
