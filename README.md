@@ -1,7 +1,8 @@
 # HW8
 NOTE: I am using a late hw token 
-GITHUB URL:
-GITHUB REPO:
+GITHUB URL:https://paradox05.github.io/HW8
+
+GITHUB REPO: https://github.com/Paradox05/HW8
 
 Name: Roniel Abreu, 
 
